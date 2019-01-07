@@ -1,0 +1,85 @@
+/*
+Azul:#3369c3
+Verde:6aa56f
+*/
+
+html,
+body {
+  margin: 0;
+}
+
+.circulo {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  top: -15px;
+  left: 40px;
+}
+
+.peixinho {
+  background-color: red;
+  width: 500px;
+  height: 296px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+#quadrado {
+  background-color: #3369c3;
+  left: 75px;
+}
+
+#quadrado2 {
+  background-color: #6aa56f;
+  left: 161px;
+}
+
+#quadrado3 {
+  background-color: #3369c3;
+  left: 247px;
+}
+
+#quadrado4 {
+  background-color: #6aa56f;
+  left: 333px;
+}
+
+#quadrado,
+#quadrado2,
+#quadrado3,
+#quadrado4 {
+  width: 86px;
+  height: 86px;
+  position: absolute;
+  top: 108px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-bottom: 43px solid transparent;
+  border-right: 76px solid #6aa56f;
+  border-top: 43px solid transparent;
+  position: absolute;
+  top: 108px;
+  left: 0px;
+}
+
+.triangulo-g {
+  width: 0;
+  height: 0;
+  border-right: 152px solid #6aa56f;
+  border-top: 86px solid transparent;
+  position: absolute;
+}
+
+#triangulo1 {
+}
+#triangulo2 {
+  transform: scaleX(-1);
+  left: 200px;
+  columns: ;
+}
